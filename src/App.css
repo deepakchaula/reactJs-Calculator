@@ -1,0 +1,86 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+.opLayout {
+  /* float: right; */
+  display: flex;
+  flex-direction: column;
+}
+button {
+  /* display: block; */
+  width: 50px;
+  height: 50px;
+  border: 2px solid #000;
+  border-top: none;
+  font-weight: 900;
+}
+button:active {
+  border-color: #999;
+}
+.opLayout button {
+  background: orange;
+  color: white;
+}
+.numButton {
+  /* display: flex; */
+  width: 75%;
+}
+.numButton button {
+  background: #787878;
+  color: #f2f2f2;
+  border-right: none;
+}
+.container {
+  display: block;
+  width: 200px;
+  margin: 20px auto;
+}
+input {
+  width: 100%;
+  height: 50px;
+  text-align: right;
+  border: 2px solid #000;
+  color: #000;
+  padding-right: 10px;
+  padding-left: 10px;
+  font-weight: 900;
+}
+.rightFloat {
+  /* float: right;
+  width: 100%; */
+  width: 88%;
+}
+.conFlex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.widthMore {
+  width: 100px;
+}
+.numButton button.darkColor {
+  background: #525252;
+}
+::-webkit-input-placeholder{
+  color: #000;
+}
